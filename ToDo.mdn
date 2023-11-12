@@ -1,0 +1,10 @@
+Bu JavaScript kodu, addTask adlı bir funksiyanı təyin edir. Bu funksiya, HTML-dəki “Əlavə et” düyməsinə basdıqda çağrılır. İşlədikləri əsas addımalar:
+
+1)getElementById ilə HTML-dəki elementləri seçir (məsələn, “taskInput” və “taskList”).
+2)value.trim() ilə daxil edilən mətnin boşluqları təmizlənir və boş olmadığı yoxlanır.
+3)createElement ilə yeni tapşırığı təmsil edən <li> elementi yaratılır və Bootstrap tətbiq olunur.
+4)appendChild ilə yeni tapşırığın mətni əlavə edilir.
+5)Sil düyməsi yaratılır və ona bir funksiya təyin edilir ki, basdıqda tapşırığı silsin.
+6)Sil düyməsi tapşırığa əlavə edilir.
+7)Yeni tapşırıq ToDo listinə əlavə edilir.
+8)Input xanası təmizlənir.
